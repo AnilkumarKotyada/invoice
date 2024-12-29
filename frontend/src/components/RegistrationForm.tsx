@@ -4,7 +4,7 @@ import axios from "axios";
 import backgroundImage from '../assets/background.jpg';
 
 
-const backendUrl = import.meta.env.VITE_BACKEND_URL;
+const backendUrl = https://invoice-backend-e3gv.onrender.com;
 
 const AuthFlow = () => {
   const [currentState, setCurrentState] = useState<'Register' | 'Login' | 'AddProduct'>('Register');
