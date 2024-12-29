@@ -1,0 +1,29 @@
+# Invoice Generator Backend
+
+This is the backend of an Invoice Generator application. It provides APIs to manage products, calculate totals, and generate invoices. The technologies uses Node.js, Express, MongoDB, puppeteer and other dependencies.
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Environment Variables](#environment-variables)
+3. [Running the Application](#running-the-application)
+4. [API Endpoints](#api-endpoints)
+5. [Error Handling](#error-handling)
+
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/invoice-generator-backend.git
+   cd invoice-generator-backend
+
+
+### Steps to follow:
+
+1. **Clone the repository**: After cloning the repository, navigate to the backend folder.
+2. **Install dependencies**: Run `npm install` to install all the required dependencies.
+3. **Set up environment variables**: Ensure your `.env` file is set up with the required variables (`MONGODB_URI`, `JWT_SECRET`).
+4. **Run the server**: You can run the server with `npm run server` or use `npm run dev` for hot-reloading during development.
+
+This `README.md` will give clear instructions to any user or developer about how to set up and run your backend.
