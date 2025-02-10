@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import backgroundImage from '../assets/background.jpg';
-
+import levitationinfo from '../assets/levitationinfo.png';
 
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
@@ -45,7 +45,8 @@ const AuthFlow = () => {
           <img
             width="141"
             height="48"
-            src="https://levitation.in/wp-content/uploads/2023/12/Frame-39624.svg"
+            border-radius="5"
+            src={levitationinfo}
             alt="Levitation Infotech"
             className="mr-4 mx-10"
           />
@@ -155,7 +156,7 @@ const AuthFlow = () => {
                   <img
                     width="141"
                     height="48"
-                    src="https://levitation.in/wp-content/uploads/2023/12/Frame-39624.svg"
+                    src={levitationinfo}
                     alt="Levitation Infotech"
                     className="mr-4 mx-10"
                   />
