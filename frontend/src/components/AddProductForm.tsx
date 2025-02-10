@@ -10,7 +10,7 @@ const AddProductForm = () => {
   const [products, setProducts] = useState<any[]>([]);
   const navigate = useNavigate();
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://invoice-backend-e3gv.onrender.com";
   const GST_RATE = 0.18;
 
 

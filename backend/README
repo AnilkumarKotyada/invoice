@@ -15,8 +15,8 @@ This is the backend of an Invoice Generator application. It provides APIs to man
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/invoice-generator-backend.git
-   cd invoice-generator-backend
+   git clone https://github.com/AnilkumarKotyada/invoice/tree/main/backend
+   cd invoice-backend
 
 
 ### Steps to follow:

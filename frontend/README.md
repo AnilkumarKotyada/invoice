@@ -31,7 +31,7 @@ This is the frontend for the Invoice Generator application. It allows users to a
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/AnilkumarKotyada/invoice/edit/main/frontend
 cd invoice-generator-frontend
 
 

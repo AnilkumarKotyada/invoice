@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import axios from "axios";
 
-const backendUrl = import.meta.env.VITE_BACKEND_URL;
+const backendUrl = "https://invoice-backend-e3gv.onrender.com";
 
 const GeneratePDF = () => {
   const [htmlContent, setHtmlContent] = useState('');
