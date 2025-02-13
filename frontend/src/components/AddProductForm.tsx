@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import jsPDF from "jspdf";
+import levitationinfo from "../assets/levitationinfo.png"
 
 const AddProductForm = () => {
   const [name, setName] = useState<string>("");
@@ -169,7 +170,7 @@ const AddProductForm = () => {
           <img
             width="141"
             height="48"
-            src="https://levitation.in/wp-content/uploads/2023/12/Frame-39624.svg"
+            src={levitationinfo}
             alt="Levitation Infotech"
             className="mr-4 mx-10 cursor-pointer"
             onClick={handleLogout}
